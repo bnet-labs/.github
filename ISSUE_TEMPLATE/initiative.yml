@@ -1,0 +1,42 @@
+# An outcome on the Roadmap, shaped like the AI-native SDLC playbook's
+# intent.md: what problem, what result, for whom, within which limits. The
+# how (decisions, requirements check, tasks) goes in its plan document and
+# its sub-issues.
+name: Initiative
+description: An outcome for the Roadmap, with its work as sub-issues
+type: Initiative
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What's wrong or missing today, and why it matters now.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Proposed outcome
+      description: What's true when this is done. Concrete enough to check.
+    validations:
+      required: true
+  - type: textarea
+    id: who
+    attributes:
+      label: Who it affects
+      description: The teams, apps or people who notice the change.
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints
+      description: Limits the solution must respect (requirements R1–R3, cost, order, deadlines, things not to touch).
+  - type: textarea
+    id: questions
+    attributes:
+      label: Open questions
+      description: What has to be decided before or during the work.
+  - type: input
+    id: plan
+    attributes:
+      label: Plan document
+      description: Link to the plan (spec.md-shaped) once it exists.

@@ -1,0 +1,23 @@
+name: Task
+description: A specific piece of work, usually a sub-issue of an initiative or epic
+type: Task
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What
+      description: The change, in a sentence or two.
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Done when
+      description: How to check it's finished (what to run, what to see).
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Context, links, risks. Add the labels `you`, `home` or `away` if it can't be done by the agent from anywhere.
