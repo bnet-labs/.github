@@ -15,3 +15,4 @@
 - [ ] No secrets in the diff (tokens, keys, passwords, kubeconfigs)
 - [ ] Versions and image tags pinned
 - [ ] Runbook or docs updated where behaviour changed
+
