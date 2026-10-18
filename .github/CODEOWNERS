@@ -1,0 +1,4 @@
+# Who owns what in this repo: a pull request requests a review from the owning
+# team. The teams and what each owns are decided in command-center,
+# platform/_platform-projects/multi-team/multi-team.md (Decisions).
+*  @bnet-labs/developer-experience
